@@ -1,0 +1,41 @@
+@import "/css/global.css";
+
+/* form start */
+.global__form__form {
+  width: 100%;
+  max-width: 696px;
+}
+.global__form__form__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.global__form__title {
+}
+.global__form__form__wrapper__top {
+  display: flex;
+  gap: 10px;
+}
+.global__form__input {
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.global__form__input__text__area {
+  height: 180px;
+  resize: none;
+}
+
+.global__form__btn {
+  padding: 17px 30px;
+  background-color: #7297ef;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+/* form end */
